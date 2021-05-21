@@ -1,0 +1,70 @@
+#login-page{
+    display: flex;
+    flex-direction: column;
+}
+
+#login{
+    margin: 2%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+#login-form{
+    width: 30%;
+    padding: 5%;
+    margin: 1%;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(51, 51, 212);
+}
+
+.login-input-fields{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    border: 1.5px solid white;
+    height: 5%;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+    
+}
+
+
+.login-label{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.login-button{
+    font-family: sans-serif;
+    text-align: center;
+    width: 30%;
+    color: white;
+    margin: 1%;
+    margin-left: 35%;
+    margin-top: 5%;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 3%;
+    border: 2px solid rgb(51, 51, 212);
+    border-radius: 5px;
+}
+
+
+.login-button:hover{
+    color: white;
+    background-color: rgb(51, 51, 212);
+    transition: all 0.2s ease-in;
+}

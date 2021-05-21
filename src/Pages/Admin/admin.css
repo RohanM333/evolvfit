@@ -1,0 +1,135 @@
+#admin{
+    display: flex;
+    flex-direction: column;
+}
+
+#panel{
+    margin: 2%;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container{
+    margin: 2%;
+}
+
+label{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-bottom: -1%;
+}
+
+.input-fields{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    border: 1.5px solid rgb(51, 51, 212);
+    height: 5%;
+    width: 20%;
+    display: block;
+    transition: all 0.3s;
+    
+}
+
+
+.table-button{
+    width: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: .8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(51, 51, 212);
+    border: 2px solid rgb(51, 51, 212);
+    border-radius: 5px;
+}
+
+.table-button:hover{
+    color: white;
+    border: 2px solid white;
+    transition: all 0.2s ease-in;
+}
+
+.table-button-form{
+    width: 20%;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: .8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(51, 51, 212);
+    border: 2px solid rgb(51, 51, 212);
+    border-radius: 5px;
+}
+
+.table-button-form:hover{
+    color: white;
+    border: 2px solid white;
+    transition: all 0.2s ease-in;
+}
+
+table{ 
+    margin:2% ;
+    width: 95%; 
+    border-collapse: collapse; 
+} 
+
+th, td{
+    padding: 2%;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+th{
+    background-color: rgb(51, 51, 212);
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+tr:hover{
+    background-color: rgb(51, 51, 212);
+    transition: all 0.2s ease-in;
+}
+
+
+
+#logout{
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    margin: 1%;
+    top: 1.5%;
+    right: 1%;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: .8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(51, 51, 212);
+    border: 2px solid rgb(51, 51, 212);
+    border-radius: 50px;
+}
+
+#logout:hover{
+    color: white;
+    border: 2px solid white;
+    transition: all 0.2s ease-in;
+}

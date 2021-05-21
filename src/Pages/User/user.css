@@ -1,0 +1,104 @@
+#user{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#input{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: .8rem;
+    margin: 2%;
+    padding: .5rem 1rem;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    border: 1.5px solid rgb(51, 51, 212);
+    height: 5%;
+    width: 30%;
+    display: block;
+    transition: all 0.3s;
+    
+}
+
+#logout{
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    margin: 1%;
+    top: 1.5%;
+    right: 1%;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: .8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(51, 51, 212);
+    border: 2px solid rgb(51, 51, 212);
+    border-radius: 50px;
+}
+
+#logout:hover{
+    color: white;
+    border: 2px solid white;
+    transition: all 0.2s ease-in;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    padding: 3%;
+    margin: 2%;
+    border: 2px solid rgb(51, 51, 212);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.card:hover{
+    background-image: linear-gradient(to right, rgb(51, 51, 212), rgb(159, 14, 226));
+    padding: 3.5%;
+    color: white;
+    border: none;
+    transition: all 0.4s ease-in;
+}
+
+#name{
+    font-family: sans-serif;
+    font-size: 50px;
+    flex: 1;
+}
+
+#name:hover{
+    font-family: sans-serif;
+    font-size: 51px;
+    flex: 1;
+    transition: all 0.4s ease-in;
+}
+
+#info{
+    font-family: sans-serif;
+    font-size: 25px;
+    flex: 1;
+}
+
+#info > h6{
+    margin: 1%;
+}
+
+#please{
+    margin: 2%;
+    font-family: sans-serif;
+    color: white;
+}
