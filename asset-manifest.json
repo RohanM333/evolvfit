@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/evolvfit/static/css/main.4d04c7b9.chunk.css",
+    "main.js": "/evolvfit/static/js/main.b5248757.chunk.js",
+    "main.js.map": "/evolvfit/static/js/main.b5248757.chunk.js.map",
+    "runtime-main.js": "/evolvfit/static/js/runtime-main.4d58c69a.js",
+    "runtime-main.js.map": "/evolvfit/static/js/runtime-main.4d58c69a.js.map",
+    "static/js/2.374eb297.chunk.js": "/evolvfit/static/js/2.374eb297.chunk.js",
+    "static/js/2.374eb297.chunk.js.map": "/evolvfit/static/js/2.374eb297.chunk.js.map",
+    "index.html": "/evolvfit/index.html",
+    "static/css/main.4d04c7b9.chunk.css.map": "/evolvfit/static/css/main.4d04c7b9.chunk.css.map",
+    "static/js/2.374eb297.chunk.js.LICENSE.txt": "/evolvfit/static/js/2.374eb297.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d58c69a.js",
+    "static/js/2.374eb297.chunk.js",
+    "static/css/main.4d04c7b9.chunk.css",
+    "static/js/main.b5248757.chunk.js"
+  ]
+}
